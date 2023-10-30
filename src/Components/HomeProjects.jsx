@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function HomeProjects() {
   return (
     <>
-        <h1 className='text-center'>Explore Our Projects</h1>
+        <h1 className='text-center text-warning'>Explore Our Projects</h1>
         <marquee>
             <Col sm={12} md={6} lg={4}>
                 <ProjectCard/>

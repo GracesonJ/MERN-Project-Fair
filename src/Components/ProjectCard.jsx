@@ -12,7 +12,7 @@ function ProjectCard() {
 
   return (
     <>
-        <Card className='shadow  m-3 mt-5 btn bg-lite' onClick={handleShow}>
+        <Card className='shadow  m-3 mt-1 btn bg-lite' onClick={handleShow}>
           <Card.Img variant="top" src={ProjectImg} />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>

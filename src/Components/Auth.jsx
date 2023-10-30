@@ -17,9 +17,9 @@ function Auth({register}) {
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center flex-column">
                                 <div className="d-flex mt-2 text-light">
-                                    <span className='h1 fw-bolder mb-0'>Project Fair</span>
+                                    <span className='h2 fw-bolder text-warning'>Project Fair</span>
                                 </div>
-                                <h5 className='fw-normal mt-4 pb-3 text-light'>
+                                <h5 className='h5 mt-4 pb-3 text-light'>
                                         {
                                             registerForm ? "Sign Up to Your Account" : "Sign in to Your Account"
                                         }
@@ -39,17 +39,16 @@ function Auth({register}) {
                                         {
                                             registerForm ?
                                             <div>
-                                                <Button className='rounded' variant="light" type='submit' size="md">Register</Button>
+                                                <Button className='rounded bg-warning' variant="light" type='submit' size="md">Register</Button>
                                             <p className='mt-3 text-light'>Already Have an Account ? <Link to={'/login'}className='btn-link text-warning '>Login Here</Link></p>
                                             </div>:
                                             <div>
-                                                <Button className='rounded' variant="light" type='submit' size="md">Login</Button>
+                                                <Button className='rounded bg-warning' variant="light" type='submit' size="md">Login</Button>
                                             <p className='mt-3 text-light'>New User ? <Link to={'/register'} className='btn-link text-warning'> Register Here</Link></p>
                                             </div>
                                         }
                                     
-                                    </Form>
-                                    
+                                    </Form>  
                             </div>
                         </div>
                     </div>
